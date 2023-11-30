@@ -66,3 +66,34 @@ ReactOS - это открытая реализация NT 5.2 (Windows XP / Serv
 2. Ввести команду `pip install pysimplegui==4.60.5` (нажать Enter для её выполнения)
 
 После этого примитивные программы (без суперсложной логики и графиков) будут запускаться по двойному клику.
+
+## 2. Для сборки EXE на Windows Vista
+
+1. Скопировать этот текст и сохранить как `requirements.txt`
+
+```
+altgraph==0.17.4
+future==0.18.3
+macholib==1.16.3
+pefile==2017.9.3
+PyInstaller==3.4
+PySimpleGUI==4.60.5
+pywin32-ctypes==0.2.0
+setuptools==28.8.0
+typing==3.10.0.0
+wheel==0.33.6
+```
+
+2. Открыть `CMD`
+3. Перейти в каталог с файлом `requirements.txt` (Например, `cd C:\1`)
+4. Выполнить команду `pip install -r requirements.txt`
+5. Перейти в каталог с `py` файлом, который надо преобразовать в EXE
+6. Ввести команду
+
+```
+pyinstaller --noconsole --onefile changeME.py
+```
+
+Где `changeME.py` - имя Python программы.
+
+7. Проверить работоспособность EXE.
