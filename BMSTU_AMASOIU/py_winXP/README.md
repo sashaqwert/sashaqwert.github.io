@@ -11,7 +11,7 @@
 
 1. [Windovs Vista x86](https://download-original-windows.ru/msdn-windows/windows-vista/)
 2. Python 3.4.10 ==> [Первоисточник](http://matejhorvat.si/en/windows/python/index.htm) | [Web Archive](https://web.archive.org/web/20231108142652/http://matejhorvat.si/en/windows/python/index.htm) | [Яндекс. диск](https://disk.yandex.ru/d/T2WmRKIMiGidXA)
-3. [Windows XP SP3 x86] (в крайнем случае можно воспользоваться [ReactOS](https://reactos.org/) 0.4.15 x86)
+3. [Windows XP SP3 x86](https://download-original-windows.ru/msdn-windows/windows-xp/) (в крайнем случае можно воспользоваться [ReactOS](https://reactos.org/) 0.4.15 x86)
 
 <details>
 <summary>Зачем Windows Vista, если нужно собрать под XP?</summary>
