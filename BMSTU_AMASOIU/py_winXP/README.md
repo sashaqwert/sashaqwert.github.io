@@ -85,7 +85,6 @@ PySimpleGUI==4.60.5
 pywin32-ctypes==0.2.0
 setuptools==28.8.0
 typing==3.10.0.0
-wheel==0.33.6
 ```
 
 2. Открыть `CMD`
