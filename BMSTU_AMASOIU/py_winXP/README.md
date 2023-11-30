@@ -23,7 +23,7 @@
 <details>
 <summary>Для желающих тестировать на ReactOS</summary>
 
-<img src="./ros-winver.png">ros_version</img>
+<img src="./ros-winver.png"><br>
 
 ReactOS - это открытая реализация NT 5.2 (Windows XP / Server 2003), имеющая кучу багов.
 Не надо думать, что, если при закрытии программы ROS упадёт в BSOD, то XP сделает также.
