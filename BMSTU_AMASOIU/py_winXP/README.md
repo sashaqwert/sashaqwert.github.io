@@ -100,3 +100,22 @@ pyinstaller --noconsole --onefile changeME.py
 Где `changeME.py` - имя Python программы.
 
 7. Проверить работоспособность EXE.
+
+# Пример работающей программы
+
+<details>
+<summary>Windows XP через интерпритатор</summary>
+
+<img src="./xp-py-result.jpg">
+<br>
+Ошибка на скриншоте показывает, что будет, если запустить на XP EXE созданный на Windows 11.
+
+</details>
+
+<details>
+<summary>ReactOS без интерпритатора</summary>
+Работоспособность того же EXE также проверялась на XP<br>
+
+<img src="./ros-exe-test.jpg">
+
+</details>
