@@ -18,7 +18,7 @@
 
 После долгих неудачных попыток установить pyinstaller в Windows XP я нашёл такое <a href="https://stackoverflow.com/questions/14289979/convert-python-script-to-exe-that-will-work-on-all-most-versions-of-windows">решение</a>.
 
-Если пытаться установить на Windows XP, то будет примерно так...
+Если пытаться установить на Windows XP, то будет примерно так...<br>
 
 <img src="./pyinstaller-xp-error.png"><br>
 
