@@ -16,7 +16,7 @@
 <details>
 <summary>Зачем Windows Vista, если нужно собрать под XP?</summary>
 
-После долгих неудачных попыток установить pyinstaller в Windows XP я нашёл такое <a href="https://stackoverflow.com/questions/14289979/convert-python-script-to-exe-that-will-work-on-all-most-versions-of-windows">решение</a>.
+После долгих неудачных попыток установить pyinstaller в Windows XP я нашёл такое <a href="https://stackoverflow.com/questions/14289979/convert-python-script-to-exe-that-will-work-on-all-most-versions-of-windows">решение</a>.<br>
 
 Если пытаться установить на Windows XP, то будет примерно так...<br>
 
