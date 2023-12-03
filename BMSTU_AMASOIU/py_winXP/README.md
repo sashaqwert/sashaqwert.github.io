@@ -18,10 +18,26 @@
 
 После долгих неудачных попыток установить pyinstaller в Windows XP я нашёл такое <a href="https://stackoverflow.com/questions/14289979/convert-python-script-to-exe-that-will-work-on-all-most-versions-of-windows">решение</a>.<br>
 
-Если пытаться установить на Windows XP, то будет примерно так...<br>
+Если пытаться установить на Windows XP, то будет примерно так... и успешно<br>
 
 <img src="./pyinstaller-xp-error.png"><br>
-
+Видмм, что автоматически выбранный пакет pefile несовместим с этой версией python...<br>
+Не проблема. Возьмём версию поменьше...<br>
+<pre>
+pip install pefile==2018.8.8
+</pre><br>
+Success!<br>
+<pre>
+pip install pyinstaller==3.4
+</pre><br>
+Success!<br>
+<br>
+EXE соберётся, но <b>будет работать только на Windows XP с установленными обновлениями. Этому критерию сответствуют не все компьютеры ИУ5.</b><br>
+<pre>
+pyinstaller --noconsole --onefile changeME.py
+</pre><br>
+EXE можно будет найти в каталоге dist.<br>
+Если смотреть инструкцию ниже, то видно, что для сборки на XP используются немного другие пакеты, чем для сборки на Vista под XP.<br>
 </details>
 
 <details>
