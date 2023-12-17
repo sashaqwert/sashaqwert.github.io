@@ -95,6 +95,8 @@ ReactOS - это открытая реализация NT 5.2 (Windows XP / Serv
 
 1. Скопировать этот текст и сохранить как `requirements.txt`
 
+Для программ без графиков
+
 ```
 altgraph==0.17.4
 future==0.18.3
@@ -103,7 +105,26 @@ pefile==2017.9.3
 PyInstaller==3.4
 PySimpleGUI==4.60.5
 pywin32-ctypes==0.2.0
-setuptools==28.8.0
+typing==3.10.0.0
+```
+
+Для программ с графиками
+
+```
+altgraph==0.17.4
+cycler==0.10.0
+future==0.18.3
+macholib==1.16.3
+matplotlib==2.0.2
+numpy==1.14.6
+pefile==2017.9.3
+PyInstaller==3.5
+pyparsing==2.4.7
+PySimpleGUI==4.60.5
+python-dateutil==2.8.2
+pytz==2017.3
+pywin32-ctypes==0.2.0
+six==1.16.0
 typing==3.10.0.0
 ```
 
